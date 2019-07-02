@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using FullSerializer;
 using Proyecto26;
-using UnityEngine;
 
 public static class DatabaseHandler
 {
