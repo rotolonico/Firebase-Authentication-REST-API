@@ -30,6 +30,8 @@ public static class AuthHandler
             payLoad).Then(
             response =>
             {
+                Debug.Log("Created User");
+                
                 var responseJson = response.Text;
 
                 // Using the FullSerializer library: https://github.com/jacobdufault/fullserializer
@@ -106,7 +108,7 @@ public static class AuthHandler
                 var responseJson = response.Text;
 
                 // Using the FullSerializer library: https://github.com/jacobdufault/fullserializer
-                // to serialize more complex types (a Dictionary, in this case)
+                // to serialize more complex types (UserData, in this case)
                 var data = fsJsonParser.Parse(responseJson);
                 object deserialized = null;
                 serializer.TryDeserialize(data, typeof(UserData), ref deserialized);
