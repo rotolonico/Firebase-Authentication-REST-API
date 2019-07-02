@@ -14,5 +14,4 @@ public class Main : MonoBehaviour
         AuthHandler.SignUp("rotolonico@gmail.com", "BestPasswordEvah", new User("Nico", "Rotolo", 17));
         AuthHandler.SignIn("rotolonico@gmail.com", "BestPasswordEvah");
     }
-
 }

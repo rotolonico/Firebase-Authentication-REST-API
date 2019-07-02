@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using FullSerializer;
 using Proyecto26;
+using UnityEngine;
 
 public static class DatabaseHandler
 {
@@ -12,17 +13,18 @@ public static class DatabaseHandler
     public delegate void PostUserCallback();
     public delegate void GetUserCallback(User user);
     public delegate void GetUsersCallback(Dictionary<string, User> users);
-    
-    
+
+
     /// <summary>
     /// Adds a user to the Firebase Database
     /// </summary>
     /// <param name="user"> User object that will be uploaded </param>
     /// <param name="userId"> Id of the user that will be uploaded </param>
     /// <param name="callback"> What to do after the user is uploaded successfully </param>
-    public static void PostUser(User user, string userId, PostUserCallback callback)
+    /// <param name="idToken"> Token which authenticates the request </param>
+    public static void PostUser(User user, string userId, PostUserCallback callback, string idToken)
     {
-        RestClient.Put<User>($"{databaseURL}users/{userId}.json?auth={AuthHandler.idToken}", user).Then(response => { callback(); });
+        RestClient.Put<User>($"{databaseURL}users/{userId}.json?auth={idToken}", user).Then(response => { callback(); });
     }
 
     /// <summary>
@@ -30,9 +32,10 @@ public static class DatabaseHandler
     /// </summary>
     /// <param name="userId"> Id of the user that we are looking for </param>
     /// <param name="callback"> What to do after the user is downloaded successfully </param>
-    public static void GetUser(string userId, GetUserCallback callback)
+    /// <param name="idToken"> Token which authenticates the request </param>
+    public static void GetUser(string userId, GetUserCallback callback, string idToken)
     {
-        RestClient.Get<User>($"{databaseURL}users/{userId}.json?auth={AuthHandler.idToken}").Then(user => { callback(user); });
+        RestClient.Get<User>($"{databaseURL}users/{userId}.json?auth={idToken}").Then(user => { callback(user); });
     }
 
     /// <summary>

@@ -42,7 +42,7 @@ public static class AuthHandler
 
                 var authResponse = deserialized as Dictionary<string, string>;
 
-                DatabaseHandler.PostUser(user, authResponse["localId"], () => { });
+                DatabaseHandler.PostUser(user, authResponse["localId"], () => { }, authResponse["idToken"]);
 
                 SendEmailVerification(authResponse["idToken"]);
             });
@@ -86,11 +86,14 @@ public static class AuthHandler
                 CheckEmailVerification(authResponse["idToken"], () =>
                 {
                     Debug.Log("Email verified, getting user info");
-                    DatabaseHandler.GetUser(userId, user => { Debug.Log($"{user.name}, {user.surname}, {user.age}"); });
+                    DatabaseHandler.GetUser(userId, user =>
+                    {
+                        Debug.Log($"{user.name}, {user.surname}, {user.age}");
+                    }, idToken);
                 }, () => { Debug.Log("Email not verified"); });
             });
     }
-
+    
     /// <summary>
     /// Checks if user accepted verification email
     /// </summary>

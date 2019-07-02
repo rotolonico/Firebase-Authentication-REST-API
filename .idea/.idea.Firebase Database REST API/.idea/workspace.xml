@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="424a4f3d-730c-4ec9-ba12-79e0bca2a313" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Firebase Database REST API/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Firebase Database REST API/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Firebase Database REST API/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Firebase Database REST API/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Firebase Database REST API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Firebase Database REST API/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AuthHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AuthHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DatabaseHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DatabaseHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/User.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding>
                 <marker date="1561807747740" expanded="true" signature="15:108" ph="/// The user class, which gets uploaded to the Firebase Database ... " />
                 <marker date="1561807747740" expanded="true" signature="200:424" ph="{...}" />
@@ -32,19 +32,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DatabaseHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="6" column="111" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="111" />
+            <state relative-caret-position="223">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
-                <marker date="1562067377589" expanded="false" signature="6:73" ph="..." />
-                <marker date="1562067377589" expanded="true" signature="110:2492" ph="{...}" />
-                <marker date="1562067377589" expanded="true" signature="572:888" ph="/// Adds a user to the Firebase Database ... " />
-                <marker date="1562067377589" expanded="true" signature="973:1119" ph="{...}" />
-                <marker date="1562067377589" expanded="true" signature="1125:1397" ph="/// Retrieves a user from the Firebase Database, given their id ... " />
-                <marker date="1562067377589" expanded="true" signature="1469:1609" ph="{...}" />
-                <marker date="1562067377589" expanded="true" signature="1615:1793" ph="/// Gets all users from the Firebase Database ... " />
-                <marker date="1562067377589" expanded="true" signature="1852:2490" ph="{...}" />
-                <marker date="1562067377589" expanded="true" signature="1962:2482" ph="{...}" />
-                <marker date="1562067377589" expanded="true" signature="2023:2182" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
+                <marker date="1562081679706" expanded="false" signature="6:92" ph="..." />
+                <marker date="1562081679706" expanded="true" signature="129:2667" ph="{...}" />
+                <marker date="1562081679706" expanded="true" signature="583:977" ph="/// Adds a user to the Firebase Database ... " />
+                <marker date="1562081679706" expanded="true" signature="1078:1212" ph="{...}" />
+                <marker date="1562081679706" expanded="true" signature="1218:1568" ph="/// Retrieves a user from the Firebase Database, given their id ... " />
+                <marker date="1562081679706" expanded="true" signature="1656:1784" ph="{...}" />
+                <marker date="1562081679706" expanded="true" signature="1790:1968" ph="/// Gets all users from the Firebase Database ... " />
+                <marker date="1562081679706" expanded="true" signature="2027:2665" ph="{...}" />
+                <marker date="1562081679706" expanded="true" signature="2137:2657" ph="{...}" />
+                <marker date="1562081679706" expanded="true" signature="2198:2357" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
               </folding>
             </state>
           </provider>
@@ -53,28 +53,69 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AuthHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="110" column="60" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
+            <state relative-caret-position="181">
+              <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
               <folding>
-                <marker date="1562073984377" expanded="false" signature="6:92" ph="..." />
-                <marker date="1562073984377" expanded="true" signature="125:5729" ph="{...}" />
-                <marker date="1562073984377" expanded="true" signature="584:974" ph="/// Sings up user with Firebase Auth using Email and Password method ... " />
-                <marker date="1562073984377" expanded="true" signature="1046:2089" ph="{...}" />
-                <marker date="1562073984377" expanded="true" signature="1337:2081" ph="{...}" />
-                <marker date="1562073984377" expanded="true" signature="1466:1629" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
-                <marker date="1562073984377" expanded="true" signature="2095:2239" ph="/// Sends verification email ... " />
-                <marker date="1562073984377" expanded="true" signature="2304:2554" ph="{...}" />
-                <marker date="1562073984377" expanded="true" signature="2564:2906" ph="/// Signs in the user with Firebase Auth using Email and Password method ... " />
-                <marker date="1562073984377" expanded="true" signature="2967:4143" ph="{...}" />
-                <marker date="1562073984377" expanded="true" signature="3259:4135" ph="{...}" />
-                <marker date="1562073984377" expanded="true" signature="3328:3491" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
-                <marker date="1562073984377" expanded="true" signature="3867:4075" ph="{...}" />
-                <marker date="1562073984377" expanded="true" signature="4149:4522" ph="/// Checks if user accepted verification email ... " />
-                <marker date="1562073984377" expanded="true" signature="4663:5727" ph="{...}" />
-                <marker date="1562073984377" expanded="true" signature="4907:5719" ph="{...}" />
-                <marker date="1562073984377" expanded="true" signature="4976:5135" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
-                <marker date="1562073984377" expanded="true" signature="5445:5616" ph="{...}" />
-                <marker date="1562073984377" expanded="true" signature="5637:5705" ph="{...}" />
+                <marker date="1562081606369" expanded="true" signature="6:92" ph="..." />
+                <marker date="1562081606369" expanded="true" signature="125:5831" ph="{...}" />
+                <marker date="1562081606369" expanded="true" signature="584:974" ph="/// Sings up user with Firebase Auth using Email and Password method ... " />
+                <marker date="1562081606369" expanded="true" signature="1046:2114" ph="{...}" />
+                <marker date="1562081606369" expanded="true" signature="1337:2106" ph="{...}" />
+                <marker date="1562081606369" expanded="true" signature="1466:1629" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
+                <marker date="1562081606369" expanded="true" signature="2120:2264" ph="/// Sends verification email ... " />
+                <marker date="1562081606369" expanded="true" signature="2329:2579" ph="{...}" />
+                <marker date="1562081606369" expanded="true" signature="2589:2931" ph="/// Signs in the user with Firebase Auth using Email and Password method ... " />
+                <marker date="1562081606369" expanded="true" signature="2992:4241" ph="{...}" />
+                <marker date="1562081606369" expanded="true" signature="3284:4233" ph="{...}" />
+                <marker date="1562081606369" expanded="true" signature="3353:3516" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
+                <marker date="1562081606369" expanded="true" signature="3892:4173" ph="{...}" />
+                <marker date="1562081606369" expanded="true" signature="4042:4144" ph="{...}" />
+                <marker date="1562081606369" expanded="true" signature="4251:4624" ph="/// Checks if user accepted verification email ... " />
+                <marker date="1562081606369" expanded="true" signature="4765:5829" ph="{...}" />
+                <marker date="1562081606369" expanded="true" signature="5009:5821" ph="{...}" />
+                <marker date="1562081606369" expanded="true" signature="5078:5237" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
+                <marker date="1562081606369" expanded="true" signature="5547:5718" ph="{...}" />
+                <marker date="1562081606369" expanded="true" signature="5739:5807" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Main.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <marker date="1562079974918" expanded="true" signature="53:590" ph="{...}" />
+                <marker date="1562079974918" expanded="true" signature="60:280" ph="/// This class is just the implementation of all the functions shown in AuthHandler ... " />
+                <marker date="1562079974918" expanded="true" signature="400:588" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UserInfo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <marker date="1562066413484" expanded="true" signature="15:122" ph="/// The UserInfo class, which gets downloaded when verifying the user's email  ... " />
+                <marker date="1562066413484" expanded="true" signature="218:280" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UserData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <folding>
+                <marker date="1562066413470" expanded="true" signature="15:122" ph="/// The UserData class, which gets downloaded when verifying the user's email  ... " />
+                <marker date="1562066413470" expanded="true" signature="218:251" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -88,9 +129,11 @@
       <find>true}</find>
       <find>Signin</find>
       <find>Debug.L</find>
-      <find>Debug.Log</find>
       <find>Deb</find>
       <find>Debug.Lo</find>
+      <find>PostUser</find>
+      <find>Debug</find>
+      <find>Debug.Log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,9 +156,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/User.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UserInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UserData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DatabaseHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Main.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AuthHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DatabaseHandler.cs" />
       </list>
     </option>
   </component>
@@ -141,6 +184,20 @@
       <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
@@ -203,12 +260,12 @@
       <workItem from="1561804024126" duration="6744000" />
       <workItem from="1561819954239" duration="4615000" />
       <workItem from="1562056393952" duration="8389000" />
-      <workItem from="1562068662110" duration="1436000" />
+      <workItem from="1562068662110" duration="7415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21184000" />
+    <option name="totallyTimeSpent" value="27163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,8 +520,8 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Users.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UserInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="72" lean-forward="true" selection-start-line="2" selection-end-line="6" selection-end-column="72" />
+        <state>
+          <caret selection-end-line="11" selection-end-column="1" />
           <folding>
             <marker date="1562066413484" expanded="true" signature="15:122" ph="/// The UserInfo class, which gets downloaded when verifying the user's email  ... " />
             <marker date="1562066413484" expanded="true" signature="218:280" ph="{...}" />
@@ -474,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UserData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="90">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding>
             <marker date="1562066413470" expanded="true" signature="15:122" ph="/// The UserData class, which gets downloaded when verifying the user's email  ... " />
             <marker date="1562066413470" expanded="true" signature="218:251" ph="{...}" />
@@ -485,20 +542,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Main.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <marker date="1562067549224" expanded="true" signature="53:591" ph="{...}" />
-            <marker date="1562067549224" expanded="true" signature="60:280" ph="/// This class is just the implementation of all the functions shown in AuthHandler ... " />
-            <marker date="1562067549224" expanded="true" signature="400:588" ph="{...}" />
+            <marker date="1562079974918" expanded="true" signature="53:590" ph="{...}" />
+            <marker date="1562079974918" expanded="true" signature="60:280" ph="/// This class is just the implementation of all the functions shown in AuthHandler ... " />
+            <marker date="1562079974918" expanded="true" signature="400:588" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DatabaseHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <marker date="1562081679706" expanded="false" signature="6:92" ph="..." />
+            <marker date="1562081679706" expanded="true" signature="129:2667" ph="{...}" />
+            <marker date="1562081679706" expanded="true" signature="583:977" ph="/// Adds a user to the Firebase Database ... " />
+            <marker date="1562081679706" expanded="true" signature="1078:1212" ph="{...}" />
+            <marker date="1562081679706" expanded="true" signature="1218:1568" ph="/// Retrieves a user from the Firebase Database, given their id ... " />
+            <marker date="1562081679706" expanded="true" signature="1656:1784" ph="{...}" />
+            <marker date="1562081679706" expanded="true" signature="1790:1968" ph="/// Gets all users from the Firebase Database ... " />
+            <marker date="1562081679706" expanded="true" signature="2027:2665" ph="{...}" />
+            <marker date="1562081679706" expanded="true" signature="2137:2657" ph="{...}" />
+            <marker date="1562081679706" expanded="true" signature="2198:2357" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/User.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
             <marker date="1561807747740" expanded="true" signature="15:108" ph="/// The user class, which gets uploaded to the Firebase Database ... " />
             <marker date="1561807747740" expanded="true" signature="200:424" ph="{...}" />
@@ -507,49 +583,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DatabaseHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="111" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="111" />
-          <folding>
-            <marker date="1562067377589" expanded="false" signature="6:73" ph="..." />
-            <marker date="1562067377589" expanded="true" signature="110:2492" ph="{...}" />
-            <marker date="1562067377589" expanded="true" signature="572:888" ph="/// Adds a user to the Firebase Database ... " />
-            <marker date="1562067377589" expanded="true" signature="973:1119" ph="{...}" />
-            <marker date="1562067377589" expanded="true" signature="1125:1397" ph="/// Retrieves a user from the Firebase Database, given their id ... " />
-            <marker date="1562067377589" expanded="true" signature="1469:1609" ph="{...}" />
-            <marker date="1562067377589" expanded="true" signature="1615:1793" ph="/// Gets all users from the Firebase Database ... " />
-            <marker date="1562067377589" expanded="true" signature="1852:2490" ph="{...}" />
-            <marker date="1562067377589" expanded="true" signature="1962:2482" ph="{...}" />
-            <marker date="1562067377589" expanded="true" signature="2023:2182" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AuthHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="110" column="60" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
+        <state relative-caret-position="181">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
           <folding>
-            <marker date="1562073984377" expanded="false" signature="6:92" ph="..." />
-            <marker date="1562073984377" expanded="true" signature="125:5729" ph="{...}" />
-            <marker date="1562073984377" expanded="true" signature="584:974" ph="/// Sings up user with Firebase Auth using Email and Password method ... " />
-            <marker date="1562073984377" expanded="true" signature="1046:2089" ph="{...}" />
-            <marker date="1562073984377" expanded="true" signature="1337:2081" ph="{...}" />
-            <marker date="1562073984377" expanded="true" signature="1466:1629" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
-            <marker date="1562073984377" expanded="true" signature="2095:2239" ph="/// Sends verification email ... " />
-            <marker date="1562073984377" expanded="true" signature="2304:2554" ph="{...}" />
-            <marker date="1562073984377" expanded="true" signature="2564:2906" ph="/// Signs in the user with Firebase Auth using Email and Password method ... " />
-            <marker date="1562073984377" expanded="true" signature="2967:4143" ph="{...}" />
-            <marker date="1562073984377" expanded="true" signature="3259:4135" ph="{...}" />
-            <marker date="1562073984377" expanded="true" signature="3328:3491" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
-            <marker date="1562073984377" expanded="true" signature="3867:4075" ph="{...}" />
-            <marker date="1562073984377" expanded="true" signature="4149:4522" ph="/// Checks if user accepted verification email ... " />
-            <marker date="1562073984377" expanded="true" signature="4663:5727" ph="{...}" />
-            <marker date="1562073984377" expanded="true" signature="4907:5719" ph="{...}" />
-            <marker date="1562073984377" expanded="true" signature="4976:5135" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
-            <marker date="1562073984377" expanded="true" signature="5445:5616" ph="{...}" />
-            <marker date="1562073984377" expanded="true" signature="5637:5705" ph="{...}" />
+            <marker date="1562081606369" expanded="true" signature="6:92" ph="..." />
+            <marker date="1562081606369" expanded="true" signature="125:5831" ph="{...}" />
+            <marker date="1562081606369" expanded="true" signature="584:974" ph="/// Sings up user with Firebase Auth using Email and Password method ... " />
+            <marker date="1562081606369" expanded="true" signature="1046:2114" ph="{...}" />
+            <marker date="1562081606369" expanded="true" signature="1337:2106" ph="{...}" />
+            <marker date="1562081606369" expanded="true" signature="1466:1629" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
+            <marker date="1562081606369" expanded="true" signature="2120:2264" ph="/// Sends verification email ... " />
+            <marker date="1562081606369" expanded="true" signature="2329:2579" ph="{...}" />
+            <marker date="1562081606369" expanded="true" signature="2589:2931" ph="/// Signs in the user with Firebase Auth using Email and Password method ... " />
+            <marker date="1562081606369" expanded="true" signature="2992:4241" ph="{...}" />
+            <marker date="1562081606369" expanded="true" signature="3284:4233" ph="{...}" />
+            <marker date="1562081606369" expanded="true" signature="3353:3516" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
+            <marker date="1562081606369" expanded="true" signature="3892:4173" ph="{...}" />
+            <marker date="1562081606369" expanded="true" signature="4042:4144" ph="{...}" />
+            <marker date="1562081606369" expanded="true" signature="4251:4624" ph="/// Checks if user accepted verification email ... " />
+            <marker date="1562081606369" expanded="true" signature="4765:5829" ph="{...}" />
+            <marker date="1562081606369" expanded="true" signature="5009:5821" ph="{...}" />
+            <marker date="1562081606369" expanded="true" signature="5078:5237" ph="/* Using the FullSerializer library: https://github.com/jacobdufault/fullserializer ... */" />
+            <marker date="1562081606369" expanded="true" signature="5547:5718" ph="{...}" />
+            <marker date="1562081606369" expanded="true" signature="5739:5807" ph="{...}" />
           </folding>
         </state>
       </provider>
